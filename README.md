@@ -21,6 +21,17 @@ A collection of Low Level Design (LLD) implementations in Java demonstrating Obj
 
 A scalable URL Shortener built in Java supporting multiple key generation strategies, URL expiration, analytics, and extensible architecture.
 
+### Features
+
+- Shorten long URLs
+- Redirect using short URLs
+- Multiple key generation strategies (Base62, UUID, Random)
+- URL expiration support
+- Duplicate URL detection
+- Click analytics
+- In-memory repository
+- Extensible architecture
+
 ### Design Patterns
 
 - Strategy Pattern
@@ -40,6 +51,19 @@ A scalable URL Shortener built in Java supporting multiple key generation strate
 ## 🚗 Parking Lot System
 
 A Parking Lot System supporting multiple floors, parking strategies, fee calculation, and thread-safe operations.
+
+### Features
+
+- Multi-floor parking
+- Multiple vehicle and parking spot sizes
+- Parking ticket generation
+- Vehicle entry & exit
+- Parking availability tracking
+- Strategy-based spot allocation (Nearest First, Best Fit)
+- Pluggable fee calculation
+- Runtime strategy switching
+- Thread-safe parking operations
+- Retry mechanism for concurrent spot allocation
 
 ### Design Patterns
 
